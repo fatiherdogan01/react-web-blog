@@ -41,7 +41,7 @@ const useStyles = makeStyles({
     paragraph: {
         display: 'inline-block',
         opacity: 0.8,
-        fontSize: 20,
+        fontSize: 21,
         fontFamily: 'medium-content-serif-font,Cambria, "Times New Roman", Times, serif;',
         lineHeight: 1.58,
     },
