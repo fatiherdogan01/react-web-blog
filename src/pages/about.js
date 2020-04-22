@@ -13,6 +13,7 @@ export default function About() {
   const frontendIcon = <Avatar className={classes.avatar}> <FrontendIcon style={{ width: 44, height: 37 }} /></Avatar>
   const otherIcon = <Avatar className={classes.avatar}> <OtherIcon style={{ width: 44, height: 42 }} /></Avatar>
   const profile = <Avatar className={classes.profileAvatar}> <img width='150' height='150' alt='profile' src='https://avatars0.githubusercontent.com/u/13077861?s=400&u=4ec073c67443e23eb20ded119c9ff5ee3316da82&v=4' /></Avatar>
+  const imageSrc = 'code.png'
   return (
     <div style={{ backgroundColor: '#F7F8F9' }}>
       <Grid className={classes.blueContainer} container direction="column" justify="center" alignItems="center">
@@ -62,7 +63,7 @@ export default function About() {
       <Grid container direction="row" justify="center" alignItems="center">
         <div className={classes.containerBox} >
           <div className={classes.containerImage}>
-            <img className={classes.image} width='100%' height='100%' alt='code' src='../images/code.png' />
+            <img className={classes.image} width='100%' height='100%' alt='code' src={imageSrc} />
             <div className={classes.text}><h1>Mobile App</h1></div>
           </div>
           <a href={link[0]} rel="noopener noreferrer" target="_blank" className={classes.link} >TYT AYT 2020</a>
@@ -73,7 +74,7 @@ export default function About() {
 
         <div className={classes.containerBox} >
           <div className={classes.containerImage}>
-            <img className={classes.image} width='100%' height='100%' alt='code' src='../images/code.png' />
+            <img className={classes.image} width='100%' height='100%' alt='code'  src={imageSrc} />
             <div className={classes.text}><h1>Mobile Game</h1></div>
           </div>
           <a href={link[1]} rel="noopener noreferrer" target="_blank" className={classes.link} >ColorWheel</a>
@@ -84,7 +85,7 @@ export default function About() {
 
         <div className={classes.containerBox} >
           <div className={classes.containerImage}>
-            <img className={classes.image} width='100%' height='100%' alt='code' src='../images/code.png' />
+            <img className={classes.image} width='100%' height='100%' alt='code'  src={imageSrc} />
             <div className={classes.text}><h1>Mobile App</h1></div>
           </div>
           <a href={link[2]} rel="noopener noreferrer" target="_blank" className={classes.link} >Fitness Home</a>
